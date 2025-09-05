@@ -9,3 +9,6 @@ https://bom.firpo.ru/Public/2645 - сайт
 dnf install libxcrypt-compat
 dnf install libnsl
 /opt/lampp/lampp start
+
+https://docs.google.com/document/d/1A3mNRMWqr3RnPutG2OowQwn6KV8DluBHuiwLpHKJ3jY/edit?usp=drive_link
+
