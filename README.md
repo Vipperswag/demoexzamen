@@ -5,3 +5,7 @@ su - вход от админа
 chmod +x xampp-linux-x64-8.2.12-0-installer.run - команда нужна для того можно было запустить файл
 ./xampp-linux-x64-8.2.12-0-installer.run - команда запускает программу
 https://bom.firpo.ru/Public/2645 - сайт
+
+dnf install libxcrypt-compat
+dnf install libnsl
+/opt/lampp/lampp start
