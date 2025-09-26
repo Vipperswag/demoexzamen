@@ -11,14 +11,17 @@
     <header>
     <img src="images/1.jpeg" alt="Логотип">
     <h1>Мой не сам</h1>
+    </header>
 <nav>
     <a href="/mou_ne_sam">Главная</a>
     <a href="/mou_ne_sam/admin">Админ</a>
 </nav>
-    </header>
-<main>
-</main>
-<footer>2025</footer>
+
+    <main>
+        <footer>
+        <h3>2025</h3>
+        </footer>
+    </main>
 <script src="script/script.js"></script>
 </body>
 </html>
