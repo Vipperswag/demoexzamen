@@ -6,9 +6,11 @@ chmod +x xampp-linux-x64-8.2.12-0-installer.run - команда нужна дл
 ./xampp-linux-x64-8.2.12-0-installer.run - команда запускает программу
 https://bom.firpo.ru/Public/2645 - сайт
 
-dnf install libxcrypt-compat
-dnf install libnsl
-/opt/lampp/lampp start
-
+Мой не сам:
 https://docs.google.com/document/d/1A3mNRMWqr3RnPutG2OowQwn6KV8DluBHuiwLpHKJ3jY/edit?usp=drive_link
 
+НарушениямНет
+Ворд:
+https://docs.google.com/document/d/1Xyx0cBTOfuuBueO8V9hZ47xBYQoToC4ABMEMLDKtBFs/edit?usp=sharing
+Таблицы:
+https://docs.google.com/spreadsheets/d/1o10LKeX68IgVTm0K72RGxjB-FE55xeOUJEXyVMkDQQs/edit?usp=sharing
