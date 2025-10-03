@@ -13,8 +13,8 @@
     <h1>Нарушениям нет</h1>
     </header>
 <nav>
-    <a href="/narysheniam_net">Главная</a>
-    <a href="/narysheniam_net/admin">Админ</a>
+    <a href="/demoexzamen/narysheniam_net">Главная</a>
+    <a href="/demoexzamen/narysheniam_net/admin">Админ</a>
 </nav>
 
     <main>
