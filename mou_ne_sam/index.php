@@ -13,11 +13,20 @@
     <h1>Мой не сам</h1>
     </header>
 <nav>
-    <a href="/mou_ne_sam">Главная</a>
-    <a href="/mou_ne_sam/admin">Админ</a>
+    <a href="/demoexzamen/mou_ne_sam">Главная</a>
+    <a href="/demoexzamen/mou_ne_sam/admin">Админ</a>
 </nav>
 
     <main>
+    <h1>Авторизация</h1>
+        <label>Логин
+            <input type="text" name="Login">
+        </label>
+        <label>Пароль
+            <input type="text" name="Password">
+        </label>
+        <button>Вход</button>
+        <p class="Error"></p>
         <footer>
         <h3>2025</h3>
         </footer>
