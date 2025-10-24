@@ -1,36 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой не сам</title>
-    <link rel="icon" href="images/1.jpeg">
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
-    <header>
-    <img src="images/1.jpeg" alt="Логотип">
-    <h1>Мой не сам</h1>
-    </header>
-<nav>
-    <a href="/demoexzamen/mou_ne_sam">Главная</a>
-    <a href="/demoexzamen/mou_ne_sam/admin">Админ</a>
-</nav>
+<?php
+$pageTitle = 'Авторизация';
+require_once "struktura.php";
 
-    <main>
-    <h1>Авторизация</h1>
+?>
+
+    <main>    
+        <h1>Авторизация</h1> 
+        <form>
         <label>Логин
-            <input type="text" name="Login">
-        </label>
+            <input type="text" name="login"> 
+        </label> 
         <label>Пароль
-            <input type="text" name="Password">
-        </label>
+            <input type="text" name="password"> 
+        </label> 
         <button>Вход</button>
-        <p class="Error"></p>
-        <footer>
-        <h3>2025</h3>
-        </footer>
+        </form> 
+        <p class="Error">
+            <?php            
+            $password=strip_tags($_GET["password"] ?? "");
+            $login=strip_tags($_GET["login"] ?? "");            
+            if ($login && $password){                
+                echo find($login,$password);
+                if (find($login, $password)) {
+                    echo "Успешная авторизация: " . $login . ", " . $password;
+                } else {
+                    echo "Ошибка авторизации: " . $login . ", " . $password . " - error";
+                }
+            }
+            ?>
+        </p>
     </main>
-<script src="script/script.js"></script>
-</body>
-</html>
